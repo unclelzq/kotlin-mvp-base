@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Base</string>
+    <!--pms -->
+    <string name="pms_array_error_str">权限申请数据出错</string>
+    <string name="pms_dlg_btn_str">去设置</string>
+    <string name="pms_dlg_title">请进行权限申请</string>
+    <string name="pms_dlg_content">该应用需要：%1$s权限才能正常使用</string>
+
+    <!--net-->
+    <string name="net_data_not_error_str">数据错误 错误信息未知</string>
+    <string name="net_json_error_str">数据解析错误</string>
+    <string name="net_http_error_str">服务器正在开小差（%1$d）</string>
+    <string name="net_null_error_str">客户端正在开小差</string>
+    <string name="net_unknown_error_str">发生了一个未知的错误</string>
+    <string name="net_work_error_str">网络出问题了</string>
+
+    <!--img-->
+    <string name="select_local_img_title_str">选择本地图片</string>
+    
+    <!--money dlg-->
+    <string name="money_dlg_title_str">选择价格</string>
+    
+    <!--common-->
+    <string name="cancel_str">取消</string>
+    <string name="determine_str">确定</string>
+    <string name="complete_str">完成</string>
+    <string name="save_str">保存</string>
+    <string name="unknown_str">未知</string>
+
+    <!--测试数据-->
+    <string name="test_para">我叫%1$s,今年%2$d岁,性别%3$s。</string>
+
+</resources>

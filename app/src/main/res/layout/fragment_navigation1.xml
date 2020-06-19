@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:elevation="@dimen/cardview_default_elevation"
+        android:id="@+id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="界面1"
+        android:textSize="20sp"
+        android:textColor="#666"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="18sp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:gravity="center"
+        android:id="@+id/btnTest"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        android:text="协程测试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

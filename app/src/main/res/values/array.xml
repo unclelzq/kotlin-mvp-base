@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pm_array">
+        <item>android.permission.CAMERA</item>
+    </string-array>
+    <string-array name="pm_name_array">
+        <item>摄像机权限</item>
+    </string-array>
+</resources>

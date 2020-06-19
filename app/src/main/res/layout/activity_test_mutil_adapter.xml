@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <TextView
+            android:text="提示"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+
+        android:background="#999"
+        android:layout_weight="1"
+        android:text="自定义对话框"
+        android:gravity="center"
+        android:id="@+id/rvContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="cancle"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnOK"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="OK"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

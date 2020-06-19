@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_1"
+        android:icon="@drawable/selector_radio_main_home"
+        android:title="首页"></item>
+    <item android:id="@+id/item_2"
+        android:icon="@drawable/selector_radio_main_product"
+        android:title="产品"></item>
+    <item android:id="@+id/item_3"
+        android:icon="@drawable/selector_radio_main_activity"
+        android:title="活动"></item>
+    <item android:id="@+id/item_4"
+        android:icon="@drawable/selector_radio_main_me"
+        android:title="我的"></item>
+
+</menu>
